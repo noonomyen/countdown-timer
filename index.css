@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #FFFFFF;
+}
+
+#navbar-nav-l button {
+    width: 80px;
+    text-align: center;
+}
+
+.display-time {
+    font-size: 100px;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+}
+
+.display-time_1 {
+    font-size: 100px;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+}
+
+#display-time {
+    padding: 20px;
+    visibility: hidden;
+    display: none;
+    color: #000000;
+}
+
+body nav div div div span {
+    padding: 2px;
+}
+
+body nav div div div a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 2px;
+}
+
+#set-timer button {
+    display: block;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    padding: 0px 40px 0px 40px;
+    font-size: 23px;
+}
+
+.set-timer_hms {
+    display: inline-block;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.set-timer_hms input {
+    width: 100px;
+    text-align: center;
+    padding: 1px;
+    font-size: 26px;
+}

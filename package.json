@@ -1,0 +1,15 @@
+{
+  "name": "countdown-timer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "author": "noonomyen",
+  "license": "",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
