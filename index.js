@@ -79,7 +79,12 @@ function display_time() {
             let thour = ("0" + tdate[0].toString()).slice(-2);
             let tmin = ("0" + tdate[1].toString()).slice(-2);
             let tsec = ("0" + tdate[2].toString()).slice(-2);
-            let tms = tdate[3].toString()[0];
+            let tms = tdate[3];
+            if (tms < 100) {
+                tms = "0";
+            } else {
+                tms = tms.toString()[0];
+            };
             elm_display_time_h0.innerText = thour[0];
             elm_display_time_h1.innerText = thour[1];
             elm_display_time_m0.innerText = tmin[0];
